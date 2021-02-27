@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://www.goosedefi.com/'
+    href: 'http://hamsterdefi.com'
   },
   {
     label: 'Trade',
@@ -24,63 +24,23 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://www.goosedefi.com/farms'
+    href: 'http://hamsterdefi.com/#/farms'
   },
   {
-    label: 'Nests',
+    label: 'Cages',
     icon: 'PoolIcon',
-    href: 'https://www.goosedefi.com/nests'
+    href: 'http://hamsterdefi.com/#/nests'
   },
-  // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: 'https://www.goosedefi.com/lottery'
-  // },
   {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
-      },
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/goose-finance',
-      },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/goose-finance/',
-      },
-      {
-        label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
-      },
+        href: 'https://pancakeswap.info/token/0xcf86484bff7c5d4fdee8953aa6baf37aad3da847',
+      }
     ]
-  },
-  {
-    label: 'More',
-    icon: 'MoreIcon',
-    items: [
-      {
-        label: "Github",
-        href: "https://github.com/goosedefi/",
-      },
-      {
-        label: "Docs",
-        href: "https://goosedefi.gitbook.io/goose-finance/",
-      },
-      {
-        label: "Blog",
-        href: "https://goosefinance.medium.com/",
-      },
-    ],
-  },
-  {
-    label: 'Audit by Hacken',
-    icon: 'AuditIcon',
-    href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
-  },
+  }
 ]
 
 export default config

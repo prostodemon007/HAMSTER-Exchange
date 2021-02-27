@@ -9,6 +9,19 @@ const GlobalStyle = createGlobalStyle`
       max-width: 100%;
     }
   }
+
+  a {
+    color: coral !important;
+  }
+  .connect-button {
+    background-color: coral;
+  }
+  .color-white {
+    color: #ffffff !important;
+  }
+  .bg-coral {
+    background-color: coral !important;
+  }
 `
 
 export default GlobalStyle

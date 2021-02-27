@@ -6,7 +6,7 @@ import { LanguageContext } from 'hooks/LanguageContext'
 import useTheme from 'hooks/useTheme'
 import useGetPriceData from 'hooks/useGetPriceData'
 import { injected, bsc, walletconnect } from 'connectors'
-import links from './config'
+import config from './config'
 
 const Menu: React.FC = props => {
   const { account, activate, deactivate } = useWeb3React()
@@ -16,8 +16,8 @@ const Menu: React.FC = props => {
 
   return (
     <UikitMenu
-      links={links}
-      priceLink="https://www.coingecko.com/en/coins/goose-finance"
+      links={config}
+      priceLink="http://167.71.43.22:1234/price"
       account={account as string}
       login={(connectorId: ConnectorId) => {
         if (connectorId === 'walletconnect') {

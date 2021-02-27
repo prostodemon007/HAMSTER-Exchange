@@ -11,9 +11,9 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
-      "name": "Goose Golden Egg",
-      "symbol": "EGG",
-      "address": "0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6",
+      "name": "Hamster",
+      "symbol": "HMSTR",
+      "address": "0xcf86484bff7c5d4fdee8953aa6baf37aad3da847",
       "chainId": 56,
       "decimals": 18
     },
